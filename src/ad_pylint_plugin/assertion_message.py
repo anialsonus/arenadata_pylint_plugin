@@ -27,7 +27,7 @@ class AssertMessageChecker(BaseChecker):
     name = "assertion-message"
     priority = -1
     msgs = {
-        "W7601": (
+        "W7701": (
             "Assertion message is empty or not provided",
             NO_MESSAGE,
             "Each assert should have readable assertion message",

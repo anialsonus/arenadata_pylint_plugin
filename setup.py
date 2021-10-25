@@ -15,7 +15,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="arenadata_pylint_plugin",
+    name="ad_pylint_plugin",
     description="The pylint plugin sniffing for a bad code",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
