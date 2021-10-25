@@ -10,19 +10,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""ad_pylint_plugin setup settings"""
+"""Root file for arenadata_pylint_plugin"""
 
-from setuptools import setup, find_packages
+from .assertion_message import AssertMessageChecker
 
-setup(
-    name="arenadata_pylint_plugin",
-    description="The pylint plugin sniffing for a bad code",
-    package_dir={"": "src"},
-    packages=find_packages(where="src"),
-    include_package_data=True,
-    version="0.1.0",
-    install_requires=[
-        "pylint",
-        "astroid",
-    ],
-)
+
+def register(linter):
+    """Register all checkers"""
+    linter.register_checker(AssertMessageChecker(linter))

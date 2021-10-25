@@ -12,8 +12,8 @@
 
 """Tests on assertion message presence checker"""
 
+from arenadata_pylint_plugin.assertion_message import AssertMessageChecker
 from tests.common import GeneralCheckerTest
-from src.ad_pylint_plugin.assertion_message import AssertMessageChecker
 
 
 class TestAssertMessageChecker(GeneralCheckerTest):
