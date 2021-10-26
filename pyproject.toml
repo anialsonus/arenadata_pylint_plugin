@@ -10,9 +10,16 @@ exclude = '''
 )
 '''
 
+[tool.pylint.master]
+ignore-paths = [
+    "^build/.*$",
+    "^dist/.*$",
+]
+
 [tool.pylint.format]
 max-line-length = 120
 max-module-lines = 1000
+
 
 [tool.pylint.messages_control]
 disable = []
