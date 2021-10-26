@@ -26,3 +26,7 @@ Or if you want a specific checker, then `arenadta_pylint_plugin.{checker_name}`.
 Name | Checks
 --- | ---
 `assertion_message` | assertion message is provided and is not an empty string
+
+## Contribution
+
+### How to run tests?
