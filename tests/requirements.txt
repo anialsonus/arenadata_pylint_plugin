@@ -1,2 +1,2 @@
-allure
 pytest
+allure-pytest
