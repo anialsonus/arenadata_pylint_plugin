@@ -13,15 +13,15 @@ Plugin for `pylint` with custom checkers used in tests in Arenadata projects.
 
 Via GitHub
 
-`pip install git+https://github.com/arenadata/adcm_pytest_plugin`
+`pip install git+https://github.com/arenadata/arenadata_pylint_plugin`
 
 From PyPI
 
 `pip install arenadata-pylint-plugin`
 
-Then add to your `pylint` configuration `arenadata_pylint_plugin` to `load_plugins` list.
+Then add to your `pylint` configuration `arenadata_pylint_plugin` to `load-plugins` list.
 
-Or if you want a specific checker, then `arenadta_pylint_plugin.{checker_name}`.
+Or if you want a specific checker, then `arenadata_pylint_plugin.{checker_name}`.
 
 ## Checkers
 
