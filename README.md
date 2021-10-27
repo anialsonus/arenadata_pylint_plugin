@@ -19,6 +19,15 @@ Then add to your `pylint` configuration `arenadata_pylint_plugin` to `load-plugi
 
 Or if you want a specific checker, then `arenadta_pylint_plugin.{checker_name}`.
 
+## Tests
+
+To run tests manually you need to follow the steps:
+
+1. Install required packages with
+`pip install -r ./tests/requirements.txt`
+2. Run tests
+`pytest ./tests/`
+
 ## Checkers
 
 ### Assertion message checker

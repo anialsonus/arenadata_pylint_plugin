@@ -22,7 +22,7 @@ class AssertMessageChecker(BaseChecker):
 
     __implements__ = IAstroidChecker
 
-    NO_MESSAGE = "assertion-message-missing"
+    NO_MESSAGE = "missing-assertion-message"
 
     name = "assertion-message"
     priority = -1

@@ -10,7 +10,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""ad_pylint_plugin setup settings"""
+"""arenadata_pylint_plugin setup settings"""
 
 from setuptools import setup, find_packages
 
