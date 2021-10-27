@@ -29,4 +29,4 @@ ignore-imports = "yes"
 min-similarity-lines = 5
 
 [tool.pylint.basic]
-good-names = ["i", "j", "k", "v", "e", "ui", "by", "pytest_plugins"]
+good-names = ["i", "j", "k", "v", "e", "ui", "by"]
