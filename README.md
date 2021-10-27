@@ -33,7 +33,9 @@ Name | Checks
 
 To run tests manually you need to follow the steps:
 
-1. Install required packages with
+1. Install this plugin
+`pip install -e .`
+2. Install required packages with
 `pip install -r ./tests/requirements.txt`
-2. Run tests
-`pytest ./tests/`
+3. Run tests
+`pytest ./tests/ --alluredir allure-result`
