@@ -15,7 +15,7 @@ Via GitHub
 
 `pip install git+https://github.com/arenadata/adcm_pytest_plugin`
 
-Then add to your `pylint` configuration `arenadata_pylint_plugin` to `load-plugins` list.
+Then add to your `pylint` configuration `arenadata_pylint_plugin` to `load_plugins` list.
 
 Or if you want a specific checker, then `arenadta_pylint_plugin.{checker_name}`.
 
